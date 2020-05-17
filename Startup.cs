@@ -15,6 +15,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace teste_3._0
 {
+
     public class Startup
     {
         public Startup(IConfiguration configuration)
@@ -29,7 +30,7 @@ namespace teste_3._0
         {
             services.AddControllers();
             services.AddDbContext<DataContext>(options =>
-                options.UseNpgsql(Configuration.GetConnectionString("PostgresConnection")));
+                options.UseSqlServer(Configuration.GetConnectionString("SQLServerConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -10,7 +10,7 @@ using SimpleCrud.Models;
 
 namespace teste_3._0.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/user")]
     [ApiController]
     public class UserController : ControllerBase
     {
