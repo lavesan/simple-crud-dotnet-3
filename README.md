@@ -1,4 +1,4 @@
-## CRUD simples configurado com PostgreSQL
+## CRUD simples configurado com SQL Server
 
 Uma API que faz um CRUD simples em uma tabela de usuário
 
