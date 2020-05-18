@@ -1,5 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
 using SimpleCrud.Models;
 
 namespace Data.PostgreSQL

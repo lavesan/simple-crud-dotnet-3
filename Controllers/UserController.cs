@@ -1,15 +1,15 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Data.PostgreSQL;
 using SimpleCrud.Models;
+using Microsoft.AspNetCore.Cors;
 
 namespace teste_3._0.Controllers
 {
+    [EnableCors("cors_setup")]
     [Route("api/user")]
     [ApiController]
     public class UserController : ControllerBase
